@@ -1,1 +1,1 @@
-Role Based Authentication and Authorization with .NET 8 MVC ADO.NET
+Role-based Authentication and Authorization implemented in .NET 8 MVC using ADO.NET, without role CRUD functionality. This project is developed solely for learning purposes.
