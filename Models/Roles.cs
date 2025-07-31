@@ -10,5 +10,7 @@ namespace RoleBasedAuth.Models
         [Required]
         [StringLength(10, ErrorMessage = "Role Name cannot exceed 10 characters.")]
         public string RoleName { get; set; }
+
+        // public string RoleName { get; set; }
     }
 }
