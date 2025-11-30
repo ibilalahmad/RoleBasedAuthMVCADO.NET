@@ -37,7 +37,6 @@ namespace RoleBasedAuth.Controllers
         }
 
         // Logout: Clear Session
-
         [AuthorizeRole("1", "2")]
         public IActionResult Logout()
         {
@@ -45,5 +44,4 @@ namespace RoleBasedAuth.Controllers
             return RedirectToAction("Login");
         }
     }
-
 }
